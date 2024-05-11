@@ -31,7 +31,7 @@
     
       
     </header>
-    <main>
+    <main style="width:640px; margin: 0 auto;">
       <section>
         <h2>headline</h2>
         <article id="article1"> 
@@ -98,7 +98,33 @@
           </tfoot>
         </table>
       </section>
-        
+      <style>
+        .div-square{
+          width: 100px;
+          height: 100px;
+        }
+        .sq-pd {
+          /*padding: 10px;*/
+          /*padding: 10px 20px;*/
+          /*padding: 10px 20px 30px;*/
+          padding: 10px 20px 30px 40px;
+          padding-top: 30px;
+        }
+        .div-cener{
+          margin: 0px auto;
+          width: 25%;
+        }
+        .sq-mg {
+          margin: 30px 20px;
+        }
+      </style>
+      <section>  
+        <div class="div-square" style="background-color: palevioletred;">1</div>
+        <div class="div-square sq-pd" style="background-color: lightgray;">2</div>
+        <div class="div-square sq-mg" style="background-color: lightpink;" >3</div>
+        <div class="div-square" style="background-color: lightskyblue;"">4</div>
+      </section>
+       
       
     </main>
     <aside>
@@ -130,6 +156,15 @@
             <button type="reset">초기화</button>
           </form>
         </secton>
+        <style>
+        .flex-container { display: flex;
+        width:295px; flex-wrap: wrap-reverse;
+        }
+        .flex-box {width: 100px; height:100px; text-align:center;} .bg-red {background-color: red;}
+        .bg-blue {background-color: blue;} .bg-gray {background-color: gray;} </style>
+        <section class="flex-container">
+        <article class="flex-box bg-red">1</article> <article class="flex-box bg-blue">2</article> <article class="flex-box bg-gray">3</article> </section>
+        
     </aside>
     
     <
